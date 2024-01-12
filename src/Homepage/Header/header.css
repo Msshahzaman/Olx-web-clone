@@ -1,0 +1,178 @@
+.top-1{
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 60px;
+}
+.top-2{
+    background-color: rgb(248, 248, 248);
+height: 20px;
+}
+.top-3{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.top-5{
+    margin-left: 50px;
+}
+
+.sell-it-img{
+
+    height: 230px;
+    width: 1200px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.img-1{
+    height: 20px;
+    width: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.img-2{
+    height: 85px;
+    width: 82px;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    mix-blend-mode: color-burn;
+    /* background-color: transparent; */
+
+}
+
+
+
+
+
+.action-btn1 {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    position: relative;
+    bottom: 5px;
+    left: 26px;
+}
+.action-btn2 {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    position: relative;
+    bottom: 5px;
+    left: 55px;
+}
+
+
+.action-btn1:hover {
+    color: #007bff;
+}
+.action-btn2:hover {
+    color: #007bff;
+}
+
+.srch-1{
+/* display: flex; */
+align-items: center;
+border-radius: 3px;
+border: 2px solid black;
+position: relative;
+width: 200px;
+height: 40px;
+bottom: 105px;
+text-align:left;
+font-size: 17px;
+color: black;
+left: 40px;
+padding-left: 50px;
+
+
+
+
+
+background-image: url('https://www.freepnglogos.com/uploads/search-png/search-very-basic-icon-ios-iconset-icons-7.png');
+background-position: 5% 50%;
+background-repeat: no-repeat;
+background-size: 20px;
+}
+
+.srch-2{
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 3px;
+    border: 2px solid black;
+    position: relative;
+    width: 580px;
+    height: 40px;
+    bottom: 105px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    left: 90px;
+    padding-left: 20px;
+
+
+
+    
+background-image: url('https://www.freepnglogos.com/uploads/search-png/search-very-basic-icon-ios-iconset-icons-7.png');
+background-position: 98% 50%;
+background-repeat: no-repeat;
+background-size: 20px;
+    }
+
+.login-btn{
+    position: relative;
+    bottom: 110px;
+    left: 130px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    /* color: #002f34; */
+    font-family: Helvetica,sans-serif;
+    color: #02343a;
+    font-weight: 700;
+
+appearance: none;
+margin: 0;
+padding: 0;
+cursor: pointer;
+/* color: inherit; */
+border: none;
+border-bottom: 2px solid #002f34;
+
+
+}    
+
+.Sell-btn{
+    position: relative;
+    bottom: 110px;
+    left: 160px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    /* color: #002f34; */
+    font-family: Helvetica,sans-serif;
+    color: #02343a;
+    font-weight: 700;
+
+appearance: none;
+margin: 0;
+padding: 0;
+cursor: pointer;
+/* color: inherit; */
+border: none;
+border-bottom: 2px solid #002f34;
+
+
+}
+
+
+
+
+
+
+
+
+

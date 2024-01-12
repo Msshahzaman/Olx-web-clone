@@ -1,0 +1,378 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* HOMEPAGE-CSS */
+.adSec{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+}
+.adbox{
+  background-color: none;
+  width: 23%;
+  margin-bottom: 50px;
+  border: 1px solid rgba(192, 192, 192, 0.696);
+  border-radius: 5px;
+  height: 280px;
+
+}
+.adbox img{
+  width: 100%;
+  height: 135px;
+  object-fit: cover;
+  /* border-radius: 5px; */
+  border-radius: 5px 5px 0px 0px;
+
+
+}
+.price{
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 15px;
+  bottom: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #002f34;
+}
+.title{
+
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 15px;
+  bottom: 25px;
+  font-size: 18px;
+}
+.khi{
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 15px;
+  bottom: 30px;
+  font-size: 18px;
+  color: #5c5f63;
+}
+.week{
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 15px;
+  bottom: 45px;
+  font-size: 15px;
+  color: #5c5f63;
+
+}
+/* .like{
+  background-color: transparent;
+  position: relative;
+  left: 400px;
+  bottom: 100px;
+} */
+
+
+/* DETAILS CSS */
+
+
+.details-section{
+
+  /* margin-bottom: 20px; */
+  height: 1000px;
+  width: 1248px;
+}
+
+.detail-card{
+display: flex;
+flex-wrap: wrap;
+background-color: none;
+  width: 63%;
+  margin-bottom: 50px;
+  border: 1px solid rgba(192, 192, 192, 0.696);
+  border-radius: 4px;
+  height: 480px;
+  margin-left: 40px;
+  object-fit: cover;
+  background-color: black;
+
+
+}
+.detail-card img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  top: 40px;
+  /* border-radius: 5px; */
+  border-radius: 5px 5px 0px 0px;
+
+}
+.contact-card{
+  border: 1px solid rgba(192, 192, 192, 0.696);
+
+  height: 240px;
+  width: 31.5%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 69%;
+  bottom: 530px;
+  border-radius: 10px;
+  
+}
+.pro-pic{
+  position: relative;
+  width: 80px;
+  top: 15px;
+  border-radius: 60px;
+  display: flex;
+  left: 30px;
+  /* font-size: 20px; */
+
+}
+.shah{
+  color: #002f34;
+  position: relative;
+  left: 125px;
+  bottom: 80px;
+  font-weight: 500;
+}
+.member{
+  color: #002f34;
+font-size: 14px;
+  position: relative;
+  left: 125px;
+  bottom: 90px;
+}
+.see-profile{
+  color: #002f34;
+  position: relative;
+  left: 125px;
+  bottom: 100px;
+  font-weight: 500;
+
+}
+.show-ph-no{
+
+  position: relative;
+  bottom: 90px;
+  left: 32px;
+  height: 45px;
+  width: 330px;
+  color: whitesmoke;
+  background-color: #002f34;
+  border-radius: 4px ;
+  border: 2px solid #002f34 ;
+  font-size: 17px;
+  font-weight: 600;
+
+
+}
+.chat{
+  position: relative;
+  bottom: 75px;
+  left: 32px;
+  height: 45px;
+  font-size: 17px;
+  font-weight: 600;
+  width: 330px;
+  color: #002f34;
+  /* background-color: #002f34; */
+  border-radius: 4px ;
+  border: 2px solid #002f34 ;
+}
+
+
+.location-card{
+  border: 1px solid rgba(192, 192, 192, 0.696);
+
+  /* height: 70%; */
+  width: 31.5%;
+  color:#002f34 ;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 69%;
+  bottom: 530px;
+  border-radius: 5px;
+  height: 100px;
+
+
+}
+.loc{
+  position: relative;
+left: 20px;
+bottom: 10px;
+font-size: 26px;
+
+}
+.gulshan{
+
+  position: relative;
+  right: 85px;
+  top: 30px;
+  font-size: 20px;
+  color: #002f34;
+}
+.price-card{
+
+  display: flex;
+flex-wrap: wrap;
+background-color: none;
+  width: 63%;
+  /* margin-bottom: 100%; */
+  position: relative;
+  border: 1px solid rgba(192, 192, 192, 0.696);
+  border-radius: 5px;
+  height: 180px;
+  margin-left: 10px;
+  bottom: 400px;
+  left: 30px;
+  aspect-ratio: 3/2;
+object-fit: contain;
+}
+.px{
+  position: relative;
+  left: 30px;
+  font-size: 40px;
+  bottom: 10px;
+  color: #002f34;
+
+}
+.item-name{
+
+  position: relative;
+  top: 60px;
+right: 93px;
+font-size: 30px;
+font-weight: 500;
+  color: #002f34;
+  /* bottom: 30px; */
+}
+.gulshan2{
+
+  position: relative;
+  right: 215px;
+  top: 125px;
+  font-size: 15px;
+  color: #002f34;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.details-card{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+    width: 53%;
+    /* margin-bottom: 100%; */
+    position: relative;
+    border: 1px solid rgba(192, 192, 192, 0.696);
+    border-radius: 5px;
+    height: 180px;
+    margin-left: 10px;
+    bottom: 270px;
+}
+.description-card{
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  width: 63%;
+    /* margin-bottom: 100%; */
+    position: relative;
+    border: 1px solid rgba(192, 192, 192, 0.696);
+    border-radius: 5px;
+    height: 280px;
+    margin-left: 10px;
+  bottom: 390px;
+    left: 30px;
+
+
+}
+.det{
+  position: relative;
+  left: 30px;
+  font-size: 40px;
+  bottom: 10px;
+  color: #002f34;
+}
+.desc{
+
+  position: relative;
+  top: 60px;
+  right: 100px;
+  font-size: 18px;
+  color: #002f34;
+}
+.category{
+  position: relative;
+  top: -40px;
+  right: -28px;
+  font-size: 18px;
+  color: #002f34;
+}
+.brand{
+  position: relative;
+  top: 90px;
+  right: 558px;
+  font-size: 18px;
+  color: #002f34;
+}
+.off{
+  position: relative;
+  top: -5px;
+  right: 167px;
+  font-size: 18px;
+  color: #002f34;
+}
+.rating{
+  position: relative;
+  top: 24px;
+  right: 252px;
+  font-size: 18px;
+  color: #002f34;
+}
