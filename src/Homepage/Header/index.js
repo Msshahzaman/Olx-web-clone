@@ -1,13 +1,13 @@
 import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCar,faBuilding,faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCar,faBuilding,faPlus,faAngleDown } from '@fortawesome/free-solid-svg-icons'
 // import searchbar from '../../images/search bar.PNG'
-
+import { useNavigate } from 'react-router-dom'
 
 
 
 function Header(){
-
+const navigate = useNavigate()
 
 
 
@@ -21,7 +21,7 @@ function Header(){
 <div className='top-1'>
 
 <img src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Logo.png" className='img-1' alt="" /> &nbsp;&nbsp;
-<button className='action-btn1 like-btn like'><FontAwesomeIcon icon={faCar} />  MOTORS</button>
+<button className='action-btn1 like-btn like'><FontAwesomeIcon icon={faCar} /> MOTORS</button>
 <button className='action-btn2 like-btn like'><FontAwesomeIcon icon={faBuilding} />  PROPERTY</button>
 
 </div>
@@ -37,7 +37,7 @@ function Header(){
 {/* <button className='btn-magnifying'><img src="https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/de4933aa-63b7-41e3-d554-3d194a645b00/public" alt="" /></button> */}
 
     <button className='login-btn'>Login</button>
-    <button className='Sell-btn'><FontAwesomeIcon icon={faPlus} /> Sell</button>
+    <button className='Sell-btn'><FontAwesomeIcon icon={faPlus} onClick={()=>navigate('/salepage')} /> Sell</button>
 </div>
 {/* </div> */}
 <br />
@@ -49,7 +49,7 @@ function Header(){
 
 {/* Top-3 */}
 <div className="top-3">
-<button className='action-btn1 like-btn like'>All categories</button>
+<button className='action-btn1 like-btn like'> All categories <FontAwesomeIcon icon={faAngleDown} /></button>
 <button className='action-btn1 like-btn like'>Mobile phones</button>
 <button className='action-btn1 like-btn like'>cars</button>
 <button className='action-btn1 like-btn like'>motocycles</button>
@@ -71,24 +71,6 @@ function Header(){
 <img src={require('../../images/./allcategories.PNG')}/>
 
 </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>

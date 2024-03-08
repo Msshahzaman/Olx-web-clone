@@ -8,6 +8,7 @@ height: 20px;
 }
 .top-3{
     display: flex;
+    justify-content: initial;
     /* justify-content: space-evenly; */
 }
 .top-5{
@@ -46,13 +47,15 @@ height: 20px;
 
 .action-btn1 {
     cursor: pointer;
-    padding: 5px;
+    padding: 7px;
+    /* margin: 5px; */
     border: none;
     background-color: transparent;
     color: #000000;
     position: relative;
     bottom: 5px;
     left: 26px;
+    /* font-size: 18px; */
 }
 .action-btn2 {
     cursor: pointer;
@@ -63,11 +66,13 @@ height: 20px;
     position: relative;
     bottom: 5px;
     left: 55px;
+    font-weight: 400;
 }
 
 
 .action-btn1:hover {
     color: #007bff;
+
 }
 .action-btn2:hover {
     color: #007bff;

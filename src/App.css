@@ -36,7 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
 /* HOMEPAGE-CSS */
+
+
+.top-7{
+  position: relative;
+  left: 43px;
+}
 .adSec{
 display: flex;
 flex-wrap: wrap;

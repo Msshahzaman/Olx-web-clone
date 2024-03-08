@@ -65,7 +65,7 @@ if(!AddsData.length){
 {/* Top-7 */}
 
 
-<div>
+<div className="top-7">
 <h2>Mobile phones</h2>
 </div>
 
